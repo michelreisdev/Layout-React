@@ -1,3 +1,4 @@
 export const PATH = {
-  HOME: '/'
+  HOME: '/home',
+  NotFoundPage: '*'
 }

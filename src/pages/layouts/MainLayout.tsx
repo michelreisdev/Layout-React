@@ -9,17 +9,11 @@ interface Props {
 const MainLayout: React.ElementType = (props: Props) => {
   const { children } = props
   return (
-    <div className="main-layout">
-      <div>
-        <AppHeader />
-      </div>
-      <div className="layout-children">
-        {children}
-      </div>
-      <div>
-        <AppFooter />
-      </div>
-    </div>
+    <>
+      <AppHeader />
+      <section>{children}</section>
+      <AppFooter />
+    </>
   )
 }
 

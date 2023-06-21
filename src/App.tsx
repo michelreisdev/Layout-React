@@ -1,4 +1,3 @@
-import './App.css'
 import AppRoute from './routes'
 
 const App: React.FC = () => {
