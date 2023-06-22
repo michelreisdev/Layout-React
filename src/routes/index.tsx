@@ -26,7 +26,7 @@ const AppRoute: React.FC = () => {
           {/* Static pages routes */}
           <Route path={PATH.HOME} element={<Home />}/>
           {/* Error routes */}
-          <Route path={PATH.NotFoundPage} element={<>Não encontrado</>}/>
+          <Route path={PATH.NotFoundPage} element={<>NotFoundPage</>}/>
         </Routes>
       </Suspense>
     </MainLayout>
