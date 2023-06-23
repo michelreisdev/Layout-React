@@ -11,7 +11,7 @@ const MainLayout: React.ElementType = (props: Props) => {
   return (
     <>
       <AppHeader />
-      <section className=' rows-full '>{children}</section>
+        <main className=' rows-full '>{children}</main>
       <AppFooter />
     </>
   )
